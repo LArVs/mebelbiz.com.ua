@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f4385bec6ead4cf81a0bb92db910bdd0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '05a0ee6353fe2cc565f0da5d4af76198',
+  'native_key' => 'shk.status_days',
+  'object' => '{"key":"shk.status_days","value":"5","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9926689699e14f929df2230a5591c159',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'cca317715b51a1dfa263015079de2b52',
+  'native_key' => 'shk.perpage',
+  'object' => '{"key":"shk.perpage","value":"20","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

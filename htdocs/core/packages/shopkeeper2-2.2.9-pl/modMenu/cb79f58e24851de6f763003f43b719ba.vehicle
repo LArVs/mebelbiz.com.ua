@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '8faa7686e82e3c5deaa30b48f8400773' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"shopkeeper","controller":"index","haslayout":1,"lang_topics":"shopkeeper:default","assets":"","help_url":"","parent":"0"}',
+        'guid' => 'a3171ca363f05192e940b20675e23d55',
+        'native_key' => 1,
+        'signature' => '96b7f123ecebbbc17d0c288c16db6e15',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f2dd280346da9919785c97634a19ad79',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'cb79f58e24851de6f763003f43b719ba',
+  'native_key' => 'shopkeeper',
+  'object' => '{"text":"shopkeeper","parent":"components","action":1,"description":"shopkeeper.menu_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

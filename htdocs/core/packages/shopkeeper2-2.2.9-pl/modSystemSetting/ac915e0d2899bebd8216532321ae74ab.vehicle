@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fe39e4df980964eb3cfcadd64ed44fd9',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ac915e0d2899bebd8216532321ae74ab',
+  'native_key' => 'shk.contact_template_small',
+  'object' => '{"key":"shk.contact_template_small","value":"mod_contacts_small","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

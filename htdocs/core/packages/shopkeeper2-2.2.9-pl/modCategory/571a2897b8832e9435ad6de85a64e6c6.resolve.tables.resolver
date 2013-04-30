@@ -1,0 +1,50 @@
+<?php
+/**
+* Resolve creating custom db tables during install.
+*
+* @package shopkeeper
+* @subpackage build
+*/
+if ($object->xpdo) {
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+            $modx =& $object->xpdo;
+            $modelPath = $modx->getOption('core_path').'components/shopkeeper/model/';
+            $modx->addPackage('shopkeeper',$modelPath);
+
+            $manager = $modx->getManager();
+            
+            $manager->createObjectContainer('SHKconfig');
+            $manager->createObjectContainer('SHKorder');
+            
+            $newconf = $modx->newObject('SHKconfig');
+            $newconf->fromArray(array(
+                'setting' => 'statuses',
+                'value' => 'a:6:{i:0;a:2:{i:0;s:10:"Новый";i:1;s:7:"#99CCFF";}i:1;a:2:{i:0;s:28:"Принят к оплате";i:1;s:7:"#CCFFFF";}i:2;a:2:{i:0;s:18:"Отправлен";i:1;s:7:"#FFFF99";}i:3;a:2:{i:0;s:16:"Выполнен";i:1;s:7:"#CCFFCC";}i:4;a:2:{i:0;s:14:"Отменен";i:1;s:7:"#FF99CC";}i:5;a:2:{i:0;s:29:"Оплата получена";i:1;s:7:"#FFCC99";}}',
+                'xtype' => 'shk-combo-status'
+            ));
+            $newconf->save();
+            
+            $newconf = $modx->newObject('SHKconfig');
+            $newconf->fromArray(array(
+                'setting' => 'shk_version',
+                'value' => '2.0',
+                'xtype' => 'textfield'
+            ));
+            $newconf->save();
+            
+            $newconf = $modx->newObject('SHKconfig');
+            $newconf->fromArray(array(
+                'setting' => 'delivery',
+                'value' => '',
+                'xtype' => 'textfield'
+            ));
+            $newconf->save();
+
+        break;
+        case xPDOTransport::ACTION_UPGRADE:
+            
+        break;
+    }
+}
+return true;

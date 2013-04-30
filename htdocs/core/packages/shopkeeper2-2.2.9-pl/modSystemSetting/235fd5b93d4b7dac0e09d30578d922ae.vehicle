@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '240134cbead1915716bdb947311008b2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '235fd5b93d4b7dac0e09d30578d922ae',
+  'native_key' => 'shk.inventory',
+  'object' => '{"key":"shk.inventory","value":"1","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

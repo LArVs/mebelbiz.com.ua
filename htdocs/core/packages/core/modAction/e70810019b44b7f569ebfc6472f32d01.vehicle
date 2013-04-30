@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e686b59be8029304b9fd0d83d6788ab0',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => 'e70810019b44b7f569ebfc6472f32d01',
+  'native_key' => 84,
+  'object' => '{"id":84,"namespace":"core","controller":"security\\/forms\\/profile\\/update","haslayout":1,"lang_topics":"formcustomization,user,access,policy","assets":"","help_url":"Form+Customization+Profiles"}',
+);

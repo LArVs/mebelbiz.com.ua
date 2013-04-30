@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '4fc25c568b1fc42bfe10c41752d46546' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnHandleRequest","priority":0,"propertyset":0}',
+        'guid' => '6dc959d89203b4c98fc2f039fea058d1',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnHandleRequest',
+        ),
+        'signature' => '3c7e0e42eb51533d02aa9484c4aca577',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9466d237bf22806e0857504fdf9c4756',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '05991b79c88fd1e281df9737f2731afc',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"shk_contextSwitch","description":"Switch to catalog context.","editor_type":0,"category":0,"cache_type":0,"plugincode":"","locked":0,"properties":"a:5:{s:19:\\"context_param_alias\\";a:7:{s:4:\\"name\\";s:19:\\"context_param_alias\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"c\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:16:\\"request_param_id\\";a:7:{s:4:\\"name\\";s:16:\\"request_param_id\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:2:\\"id\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:10:\\"catalog_id\\";a:7:{s:4:\\"name\\";s:10:\\"catalog_id\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"0\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:11:\\"context_key\\";a:7:{s:4:\\"name\\";s:11:\\"context_key\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:7:\\"catalog\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:10:\\"site_start\\";a:7:{s:4:\\"name\\";s:10:\\"site_start\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}}","disabled":0,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/plugins\\/context_switch.php","content":""}',
+);

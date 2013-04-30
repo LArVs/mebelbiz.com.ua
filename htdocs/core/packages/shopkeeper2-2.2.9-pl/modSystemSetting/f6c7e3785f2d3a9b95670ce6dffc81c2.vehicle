@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'eed2a570a40c1a606fb449298451a73a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f6c7e3785f2d3a9b95670ce6dffc81c2',
+  'native_key' => 'shk.manager_view_limit',
+  'object' => '{"key":"shk.manager_view_limit","value":false,"xtype":"combo-boolean","namespace":"shopkeeper","area":"module","editedon":null}',
+);

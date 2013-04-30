@@ -1,0 +1,182 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'd6c699146a1db443eb7198702fbe237c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"mod_contacts","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/chunks\\/[[++manager_language]]\\/mod_contacts.tpl","content":""}',
+        'guid' => '2580071113cfa800c8838c0a5695624a',
+        'native_key' => NULL,
+        'signature' => '0801b9014df826458fa96a296b04e5f5',
+      ),
+      '40b30d2a238a60dc3924c747ce2ae22b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"mod_contacts_small","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/chunks\\/[[++manager_language]]\\/mod_contacts_small.tpl","content":""}',
+        'guid' => 'd019dabd2c08e0d9d5fa9e61c9f6c6e7',
+        'native_key' => NULL,
+        'signature' => 'e80c4e6859399e7e1a6a191445f31eb4',
+      ),
+      '324d4a953d6dee71dd0c99284e0adef0' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"shopOrderForm","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/chunks\\/[[++manager_language]]\\/shopOrderForm.tpl","content":""}',
+        'guid' => '0fcc95708d8a120a60523f886dd6bf52',
+        'native_key' => NULL,
+        'signature' => '7f43f78dd8055cd2317d9acad415a290',
+      ),
+      '96c1045bd9eac1467a0101f6e8d7579f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"shopOrderReport","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/chunks\\/[[++manager_language]]\\/shopOrderReport.tpl","content":""}',
+        'guid' => 'a697ba66db7f2861e6ed190b0cfbcd89',
+        'native_key' => NULL,
+        'signature' => 'e2aad6e2e504dbe0cfa75589b99f9069',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '54298f306a11e65c36006d6ff6e827ba' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"Shopkeeper","description":"Shopping cart","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":"a:30:{s:4:\\"lang\\";a:7:{s:4:\\"name\\";s:4:\\"lang\\";s:4:\\"desc\\";s:13:\\"prop_shk.lang\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:2:\\"ru\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"prodCont\\";a:7:{s:4:\\"name\\";s:8:\\"prodCont\\";s:4:\\"desc\\";s:17:\\"prop_shk.prodcont\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:12:\\"div.shk-item\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"tplPath\\";a:7:{s:4:\\"name\\";s:7:\\"tplPath\\";s:4:\\"desc\\";s:16:\\"prop_shk.tplpath\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:46:\\"core\\/components\\/shopkeeper\\/elements\\/chunks\\/ru\\/\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"cartTpl\\";a:7:{s:4:\\"name\\";s:7:\\"cartTpl\\";s:4:\\"desc\\";s:16:\\"prop_shk.carttpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:18:\\"@FILE shopCart.tpl\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"cartRowTpl\\";a:7:{s:4:\\"name\\";s:10:\\"cartRowTpl\\";s:4:\\"desc\\";s:19:\\"prop_shk.cartrowtpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:21:\\"@FILE shopCartRow.tpl\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"additDataTpl\\";a:7:{s:4:\\"name\\";s:12:\\"additDataTpl\\";s:4:\\"desc\\";s:21:\\"prop_shk.additdatatpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:19:\\"@FILE additData.tpl\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"orderDataTpl\\";a:7:{s:4:\\"name\\";s:12:\\"orderDataTpl\\";s:4:\\"desc\\";s:21:\\"prop_shk.orderdatatpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:19:\\"@FILE orderData.tpl\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"cartHelperTpl\\";a:7:{s:4:\\"name\\";s:13:\\"cartHelperTpl\\";s:4:\\"desc\\";s:21:\\"prop_shk.carthelpetpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"flyToCart\\";a:7:{s:4:\\"name\\";s:9:\\"flyToCart\\";s:4:\\"desc\\";s:18:\\"prop_shk.flytocart\\";s:4:\\"type\\";s:4:\\"list\\";s:7:\\"options\\";a:4:{i:0;a:2:{s:4:\\"text\\";s:6:\\"helper\\";s:5:\\"value\\";s:6:\\"helper\\";}i:1;a:2:{s:4:\\"text\\";s:5:\\"image\\";s:5:\\"value\\";s:5:\\"image\\";}i:2;a:2:{s:4:\\"text\\";s:11:\\"scrollimage\\";s:5:\\"value\\";s:11:\\"scrollimage\\";}i:3;a:2:{s:4:\\"text\\";s:5:\\"nofly\\";s:5:\\"value\\";s:5:\\"nofly\\";}}s:5:\\"value\\";s:6:\\"helper\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"priceTV\\";a:7:{s:4:\\"name\\";s:7:\\"priceTV\\";s:4:\\"desc\\";s:16:\\"prop_shk.pricetv\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:5:\\"price\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:5:\\"style\\";a:7:{s:4:\\"name\\";s:5:\\"style\\";s:4:\\"desc\\";s:14:\\"prop_shk.style\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:7:\\"default\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"currency\\";a:7:{s:4:\\"name\\";s:8:\\"currency\\";s:4:\\"desc\\";s:17:\\"prop_shk.currency\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:7:\\"\\u0440\\u0443\\u0431.\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"noCounter\\";a:7:{s:4:\\"name\\";s:9:\\"noCounter\\";s:4:\\"desc\\";s:18:\\"prop_shk.nocounter\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"noLoader\\";a:7:{s:4:\\"name\\";s:8:\\"noLoader\\";s:4:\\"desc\\";s:17:\\"prop_shk.noloader\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"orderFormPage\\";a:7:{s:4:\\"name\\";s:13:\\"orderFormPage\\";s:4:\\"desc\\";s:22:\\"prop_shk.orderformpage\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:17:\\"goToOrderFormPage\\";a:7:{s:4:\\"name\\";s:17:\\"goToOrderFormPage\\";s:4:\\"desc\\";s:26:\\"prop_shk.gotoorderformpage\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"counterField\\";a:7:{s:4:\\"name\\";s:12:\\"counterField\\";s:4:\\"desc\\";s:21:\\"prop_shk.counterfield\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:16:\\"counterFieldCart\\";a:7:{s:4:\\"name\\";s:16:\\"counterFieldCart\\";s:4:\\"desc\\";s:25:\\"prop_shk.counterFieldCart\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:15:\\"excepDigitGroup\\";a:7:{s:4:\\"name\\";s:15:\\"excepDigitGroup\\";s:4:\\"desc\\";s:24:\\"prop_shk.excepdigitgroup\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"changePrice\\";a:7:{s:4:\\"name\\";s:11:\\"changePrice\\";s:4:\\"desc\\";s:20:\\"prop_shk.changeprice\\";s:4:\\"type\\";s:4:\\"list\\";s:7:\\"options\\";a:3:{i:0;a:2:{s:4:\\"text\\";s:3:\\"yes\\";s:5:\\"value\\";s:1:\\"1\\";}i:1;a:2:{s:4:\\"text\\";s:2:\\"no\\";s:5:\\"value\\";s:1:\\"0\\";}i:2;a:2:{s:4:\\"text\\";s:7:\\"replace\\";s:5:\\"value\\";s:7:\\"replace\\";}}s:5:\\"value\\";s:1:\\"1\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"animCart\\";a:7:{s:4:\\"name\\";s:8:\\"animCart\\";s:4:\\"desc\\";s:17:\\"prop_shk.animcart\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:15:\\"allowFloatCount\\";a:7:{s:4:\\"name\\";s:15:\\"allowFloatCount\\";s:4:\\"desc\\";s:24:\\"prop_shk.allowfloatcount\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"noJavaScript\\";a:7:{s:4:\\"name\\";s:12:\\"noJavaScript\\";s:4:\\"desc\\";s:21:\\"prop_shk.nojavascript\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"noJQuery\\";a:7:{s:4:\\"name\\";s:8:\\"noJQuery\\";s:4:\\"desc\\";s:17:\\"prop_shk.nojquery\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"noConflict\\";a:7:{s:4:\\"name\\";s:10:\\"noConflict\\";s:4:\\"desc\\";s:19:\\"prop_shk.noconflict\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:6:\\"hideOn\\";a:7:{s:4:\\"name\\";s:6:\\"hideOn\\";s:4:\\"desc\\";s:15:\\"prop_shk.hideon\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"TVsaveList\\";a:7:{s:4:\\"name\\";s:10:\\"TVsaveList\\";s:4:\\"desc\\";s:19:\\"prop_shk.TVsaveList\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"fromParentList\\";a:7:{s:4:\\"name\\";s:14:\\"fromParentList\\";s:4:\\"desc\\";s:23:\\"prop_shk.fromParentList\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:16:\\"fromParentHeight\\";a:7:{s:4:\\"name\\";s:16:\\"fromParentHeight\\";s:4:\\"desc\\";s:25:\\"prop_shk.fromParentHeight\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:5:\\"debug\\";a:7:{s:4:\\"name\\";s:5:\\"debug\\";s:4:\\"desc\\";s:14:\\"prop_shk.debug\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"shopkeeper:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/shopkeeper.inc.php","content":""}',
+        'guid' => '750d70c89d29f1be22ef24e3df6afa00',
+        'native_key' => NULL,
+        'signature' => 'e82e094fec172e4ce0bfb7ff620a3521',
+      ),
+      'bb4fbc1e5b0d6b060e7171bbdd95f581' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"shk_fihook","description":"FormIt hook for Shopkeeper","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/shk_fihook.inc.php","content":""}',
+        'guid' => '4ea8073da65afb1a0ed45b98df75a150',
+        'native_key' => NULL,
+        'signature' => '5649f15c1490e972b48a33f9a7fd1884',
+      ),
+      'c85fa88234e60a1e2ea4b4bbf12ed6f1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"num_format","description":"Number format output filter","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/snippets\\/snippet.num_format.php","content":""}',
+        'guid' => 'e40938ac36c4ade5880de7b6c5e23e98',
+        'native_key' => NULL,
+        'signature' => 'c310a682bb9cfa87876df876f298e98a',
+      ),
+      '0082b769aa71f1556df8cb0acadbc855' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"shk_include","description":"Include snippets from PHP files","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/snippets\\/include.php","content":""}',
+        'guid' => '448be5eb57d069b26c203e01f87dfdaa',
+        'native_key' => NULL,
+        'signature' => '4b3be1fc991dcd1895d3cafcc3a85bb1',
+      ),
+      '1d472e7c68e345e44cd741553b2d07f3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"userOrders","description":"Displays a list of customer orders","editor_type":0,"category":0,"cache_type":0,"snippet":"","locked":0,"properties":null,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/snippets\\/snippet.user_orders.php","content":""}',
+        'guid' => 'b12ef46516e5118e1d51ac33a2f7f14a',
+        'native_key' => NULL,
+        'signature' => 'f4ee3d5e6c777866d9bc2a33cb02ee83',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"shopkeeper2-2.2.9-pl\\/modCategory\\/571a2897b8832e9435ad6de85a64e6c6\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"shopkeeper"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"shopkeeper2-2.2.9-pl\\/modCategory\\/571a2897b8832e9435ad6de85a64e6c6\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"shopkeeper"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"shopkeeper2-2.2.9-pl\\/modCategory\\/571a2897b8832e9435ad6de85a64e6c6.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '980b2f312267ed8f952e32d62a0ec176',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '571a2897b8832e9435ad6de85a64e6c6',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Shopkeeper"}',
+);

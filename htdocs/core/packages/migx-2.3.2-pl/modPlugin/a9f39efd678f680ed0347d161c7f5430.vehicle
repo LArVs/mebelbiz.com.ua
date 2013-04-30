@@ -1,0 +1,92 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'a53dc587e2ea448f0449f5c4053075ea' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":1,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'e3b598068d51e2f9cb9372d1ea6bd291',
+        'native_key' => 
+        array (
+          0 => 1,
+          1 => 'OnDocFormPrerender',
+        ),
+        'signature' => '04c13fae8a97e6eb7802b1922140c2cd',
+      ),
+      '2b01921ad962398533803227975a0916' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":1,"event":"OnTVInputPropertiesList","priority":0,"propertyset":0}',
+        'guid' => '2373ca688dc29d07916c36acf66b5620',
+        'native_key' => 
+        array (
+          0 => 1,
+          1 => 'OnTVInputPropertiesList',
+        ),
+        'signature' => '5eba441fecd28ce8d473aa0bf85fcd59',
+      ),
+      '225363a4474ecca450c68478f8a3aa64' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":1,"event":"OnTVInputRenderList","priority":0,"propertyset":0}',
+        'guid' => 'c0a96199588141e7606f269e77e9741c',
+        'native_key' => 
+        array (
+          0 => 1,
+          1 => 'OnTVInputRenderList',
+        ),
+        'signature' => '26eddae64595bb48bd0a9c00afee1b6d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'migx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f9fdee8a07c614cbf612ffa333fb50bc',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'a9f39efd678f680ed0347d161c7f5430',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"MIGX","description":"","editor_type":0,"category":1,"cache_type":0,"plugincode":"$corePath = $modx->getOption(\'migx.core_path\',null,$modx->getOption(\'core_path\').\'components\\/migx\\/\');\\n$assetsUrl = $modx->getOption(\'migx.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/migx\\/\');\\nswitch ($modx->event->name) {\\n    case \'OnTVInputRenderList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/input\\/\');\\n        break;\\n    case \'OnTVInputPropertiesList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/inputoptions\\/\');\\n        break;\\n\\n        case \'OnDocFormPrerender\':\\n        $modx->controller->addCss($assetsUrl.\'css\\/mgr.css\');\\n        break; \\n \\n    \\/*          \\n    case \'OnTVOutputRenderList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/output\\/\');\\n        break;\\n    case \'OnTVOutputRenderPropertiesList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/properties\\/\');\\n        break;\\n    \\n    case \'OnDocFormPrerender\':\\n        $assetsUrl = $modx->getOption(\'colorpicker.assets_url\',null,$modx->getOption(\'assets_url\').\'components\\/colorpicker\\/\'); \\n        $modx->regClientStartupHTMLBlock(\'<script type=\\"text\\/javascript\\">\\n        Ext.onReady(function() {\\n            \\n        });\\n        <\\/script>\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorPicker.js\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorMenu.js\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorPickerField.js\');\\t\\t\\n        $modx->regClientCSS($assetsUrl.\'resources\\/css\\/colorpicker.css\');\\n        break;\\n     *\\/\\n}\\nreturn;","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"$corePath = $modx->getOption(\'migx.core_path\',null,$modx->getOption(\'core_path\').\'components\\/migx\\/\');\\n$assetsUrl = $modx->getOption(\'migx.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/migx\\/\');\\nswitch ($modx->event->name) {\\n    case \'OnTVInputRenderList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/input\\/\');\\n        break;\\n    case \'OnTVInputPropertiesList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/inputoptions\\/\');\\n        break;\\n\\n        case \'OnDocFormPrerender\':\\n        $modx->controller->addCss($assetsUrl.\'css\\/mgr.css\');\\n        break; \\n \\n    \\/*          \\n    case \'OnTVOutputRenderList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/output\\/\');\\n        break;\\n    case \'OnTVOutputRenderPropertiesList\':\\n        $modx->event->output($corePath.\'elements\\/tv\\/properties\\/\');\\n        break;\\n    \\n    case \'OnDocFormPrerender\':\\n        $assetsUrl = $modx->getOption(\'colorpicker.assets_url\',null,$modx->getOption(\'assets_url\').\'components\\/colorpicker\\/\'); \\n        $modx->regClientStartupHTMLBlock(\'<script type=\\"text\\/javascript\\">\\n        Ext.onReady(function() {\\n            \\n        });\\n        <\\/script>\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorPicker.js\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorMenu.js\');\\n        $modx->regClientStartupScript($assetsUrl.\'sources\\/ColorPickerField.js\');\\t\\t\\n        $modx->regClientCSS($assetsUrl.\'resources\\/css\\/colorpicker.css\');\\n        break;\\n     *\\/\\n}\\nreturn;"}',
+);

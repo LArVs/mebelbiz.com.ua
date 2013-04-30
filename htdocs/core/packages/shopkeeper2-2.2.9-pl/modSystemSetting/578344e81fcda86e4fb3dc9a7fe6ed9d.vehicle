@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '53fa90e33b9d9ea950e8962c09191162',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '578344e81fcda86e4fb3dc9a7fe6ed9d',
+  'native_key' => 'shk.price_tv_id',
+  'object' => '{"key":"shk.price_tv_id","value":"1","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

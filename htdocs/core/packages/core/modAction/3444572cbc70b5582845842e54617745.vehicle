@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5b92feb4b5fc7e92a7a6f5f8ac1b7b9e',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '3444572cbc70b5582845842e54617745',
+  'native_key' => 8,
+  'object' => '{"id":8,"namespace":"core","controller":"context\\/update","haslayout":1,"lang_topics":"context,setting,access,policy,user","assets":"","help_url":"Contexts"}',
+);

@@ -1,0 +1,138 @@
+Changelog for MIGX.
+
+MIGX 2.3.1
+
+==============
+some eNotice - error - fixes
+add type - configuration to gridcolumns, now its possible to sort also numeric on the MIGX - grid: see https://github.com/Bruno17/MIGX/issues/41
+
+MIGX 2.3.0
+
+==============
+add multifile - uploader, upload to MIGX - mediasource
+add load from mediasource - button to MIGX
+add migxResourcePath - snippet
+add iframe - support - its now possible to create chunks with snippet-calls and show the result in an iframe-window. used by multifile-uploader.
+
+
+MIGX 2.2.3
+
+==============
+confirmation before overriding schema-files
+some additions for childresources-management by MIGXdb
+switch between multiple forms - configurations
+add renderDate - renderer , thanks to Jako
+additional send all store-baseParams when opening the form-window. This way we can have different forms depending on filters for example.
+add parent-property for dynamic filter-comboboxes
+add getliste-where for default getlist-processor
+export formtabs as clean json in editraw-mode
+
+
+MIGX 2.2.2
+
+==============
+add migxLoopCollection-snippet
+move prepareJoins into a migx-method
+confirmation before remove db-record, getcombo did not use idfield 
+allow empty prefix 
+add possibility to use tables without 'deleted' - field and default-getlist-processor
+fix Call-time pass-by-reference errors
+get tinyMCE to work on richtext-TV-inputs in MIGXdb - CMPs 
+fix prefix not sended to writeSchema
+grid add cls 'main-wrapper' to give it a bit padding, thanks to jako
+
+
+MIGX 2.2.0
+
+==============
+
+export/import configuration-objects as json to/from files in custom-package-directories 
+new configs: getlist - defaultsort, joins, gridload_mode (by button, auto) 
+grid-smarty-template now can be also in custom-package-directories
+reworked handling of joined objects in default update-php 
+add connected_object_id baseparam to migx-grid
+added snippet migxLoopCollection
+
+
+MIGX 2.1.1
+
+==============
+
+  fix for migx-snippet not working with multiple calls on one page
+  resource_id as script-property for getlist-processor when used with migx-snippet
+
+MIGX 2.1.0
+
+==============
+
+  add &sort to the getImageList - snippet
+  add new snippet 'migx' to get items from db-tables, can use the same configurations and getList - processors as the MIGXdb - manager
+  make it possible to have config-files for grids and processors in another package-folder for easier packaging together custom - packages
+  more MIGXdb - configurations
+
+
+MIGX 2.0.1
+
+==============
+
+  more E_NOTICE - Error - fixes
+  Fix Missing Add - Item - Replacement - String 
+
+MIGX 2.0.0
+
+==============
+
+- pl
+
+  fix for Revo 2.2.2
+  fix some E_NOTICE - errors
+
+- new in beta5
+
+  Configure multiple CMP - tabs
+  packagemanager ported to extjs - tab
+  added MIGX-setup/upgrade - tab
+  added configurable text and combo - filterboxes
+
+- new in beta3
+
+  This is a preview-version of MIGXdb
+  MIGXdb can now also be used as configurable CMP
+  MIGX - configurator for tabs, columns, MIGXdb-TV and MIGXdb-CMP
+  Package-manager, create and edit schemas and package-tables
+
+- new:
+  better compatibility with revo 2.2
+  working with mediasources
+  introduced MIGXdb
+
+
+MIGX 1.2.0
+==============
+- new:
+  merge scriptProperties to Placeholders 
+  basic compatibility for modx 2.2 
+  autoinc-field: MIGX_id
+  autoResourceFolders - functionality, autoCreate directory for each resource
+  
+  
+- fixed:
+  url-TV support
+  context-based base_path issues
+  remove remaining []
+  remove Tiny-instances when switching form
+  enter on textarea closes window
+  fireResourceFormChange for drag,remove,duplicate 
+
+MIGX 1.1.0
+==============
+- new:
+  &docidVarKey
+  &processTVs
+  
+- fixed:
+  context-filepath-issue
+
+MIGX 1.0.0
+==============
+- Initial release.

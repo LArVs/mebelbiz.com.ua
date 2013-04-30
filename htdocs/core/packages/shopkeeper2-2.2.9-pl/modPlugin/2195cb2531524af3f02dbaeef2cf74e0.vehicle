@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'ded8c49f5b07483119f84aa13908416a' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSHKbeforeCartLoad","priority":0,"propertyset":0}',
+        'guid' => '1155fa5fb37395336379ae90c037fdd6',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSHKbeforeCartLoad',
+        ),
+        'signature' => '0106d75793927faa0b32315d1c4f9ae4',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0fda15f6feb790af1b379b828693e0d1',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '2195cb2531524af3f02dbaeef2cf74e0',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"shk_delivery","description":"Add delivery data to order.","editor_type":0,"category":0,"cache_type":0,"plugincode":"","locked":0,"properties":"a:2:{s:3:\\"tpl\\";a:7:{s:4:\\"name\\";s:3:\\"tpl\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:123:\\"@INLINE <option value=\\"[[+name]]\\" [[+selected]]>[[+name]] [[+price:gt=`0`:then=`([[+price]] [[++shk.currency]])`]]<\\/option>\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}s:12:\\"deliveryName\\";a:7:{s:4:\\"name\\";s:12:\\"deliveryName\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:16:\\"\\u0414\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0430\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:0:\\"\\";}}","disabled":0,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/plugins\\/delivery.php","content":""}',
+);

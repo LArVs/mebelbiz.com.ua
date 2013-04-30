@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2e2511aaccc9ff34e2c72c702975f037',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'bef216ee4de254117b10eb394528616b',
+  'native_key' => 'shk.addit_data_tpl',
+  'object' => '{"key":"shk.addit_data_tpl","value":"@FILE additData.tpl","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);

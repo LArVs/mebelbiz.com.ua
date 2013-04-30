@@ -1,0 +1,111 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '1a80f875e4dc3863d3fa0c0d5bf5bc9d' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVInputRenderList","priority":0,"propertyset":0}',
+        'guid' => 'c2fe997a543ea58103e68ed103835f6c',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVInputRenderList',
+        ),
+        'signature' => '898fbdd90751255293a6a84c0e749cba',
+      ),
+      '46d373f366381ac09fc1e0d06e1316e1' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVInputPropertiesList","priority":0,"propertyset":0}',
+        'guid' => 'db8b97c7a237a03c10a1014b3ba7bc4e',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVInputPropertiesList',
+        ),
+        'signature' => '5925ff079cc492899b1f475ea3b0fea5',
+      ),
+      '060f7e8cb78a02b6080c2c991026314f' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVOutputRenderList","priority":0,"propertyset":0}',
+        'guid' => '7c582676383934b372b0c72d9302bcf0',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVOutputRenderList',
+        ),
+        'signature' => '18a7f4d5f563bddbbc81687ee7033bc0',
+      ),
+      'b5f2ba42da315df2c76227554fe256c1' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVOutputRenderPropertiesList","priority":0,"propertyset":0}',
+        'guid' => '5be1ec4edf792fe10b1731af43c524b0',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVOutputRenderPropertiesList',
+        ),
+        'signature' => 'c6403672a50e6ff69ed870f89ba5043c',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '104273dba3225f4062438f9c9c5a8092',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '2f2e687a38e3a9c4b57cc2226828c10a',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"shk_tv_input_output","description":"Print Shopkeeper`s input and output types for TV.","editor_type":0,"category":0,"cache_type":0,"plugincode":"","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/plugins\\/tv_input_output.php","content":""}',
+);

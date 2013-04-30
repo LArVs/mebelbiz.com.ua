@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'codemirror',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5dad1bf4a13388fce8a71b3d7915784b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1d489263f71f6cc70a88ed5ebe04a53c',
+  'native_key' => 'codemirror.enable',
+  'object' => '{"key":"codemirror.enable","value":1,"xtype":"combo-boolean","namespace":"codemirror","area":"Editor","editedon":null}',
+);

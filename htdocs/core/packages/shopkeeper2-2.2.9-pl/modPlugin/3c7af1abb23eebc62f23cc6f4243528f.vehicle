@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '68ef465f121152e380bd4f648e6c79bd' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSHKScriptsLoad","priority":0,"propertyset":0}',
+        'guid' => '2541dd38c014712393b30357c3558c45',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSHKScriptsLoad',
+        ),
+        'signature' => '94db161584a28a3b8a5ac15357c2fc35',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ef2bf875d1635fc76e34e46acbc0c8b1',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '3c7af1abb23eebc62f23cc6f4243528f',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"shk_order_export","description":"Export Shopkeeper orders to XML","editor_type":0,"category":0,"cache_type":0,"plugincode":"","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":1,"static_file":"core\\/components\\/shopkeeper\\/elements\\/plugins\\/shk_order_export.inc.php","content":""}',
+);

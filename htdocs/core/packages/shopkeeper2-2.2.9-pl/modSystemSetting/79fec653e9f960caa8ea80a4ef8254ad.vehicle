@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3794f6f817049ac3501fc33d51a3fe46',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '79fec653e9f960caa8ea80a4ef8254ad',
+  'native_key' => 'shk.property_set_default',
+  'object' => '{"key":"shk.property_set_default","value":"default","xtype":"textfield","namespace":"shopkeeper","area":"module","editedon":null}',
+);
