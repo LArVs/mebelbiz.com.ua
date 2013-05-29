@@ -36,33 +36,42 @@ sleep(1);
 $lines = $modx->importx->prepareData();
 
 if ($lines === false) {
-    $modx->importx->log('complete','');
-    return $this->modx->error->failure();    
+	$modx->importx->log('complete','');
+	return $this->modx->error->failure();
 }
 
 $this->modx->importx->log('info',$modx->lexicon('importx.log.importvaluesclean',array('count' => count($lines))));
 $resourceCount = 0;
 
-$processor = 'resource/'.$modx->getOption('importx.processor',null,'create');
+//$processor = 'resource/'.$modx->getOption('importx.processor',null,'create');
+$processor_update = 'resource/update';
+$processor_create = 'resource/create';
 foreach ($lines as $line) {
-    /* @var modProcessorResponse $response */
-    $response = $modx->runProcessor($processor,$line);
-    if ($response->isError()) {
-        if ($response->hasFieldErrors()) {
-            $fieldErrors = $response->getAllErrors();
-            $errorMessage = implode("\n",$fieldErrors);
-        } else {
-            $errorMessage = $modx->lexicon('importx.err.savefailed')."\n".print_r($response->getMessage(),true);
-        }
-        $this->modx->importx->log('error',$errorMessage);
-        return $this->modx->importx->log('complete','');
-    } else {
-        $resourceCount++;
-    }
+	/* @var modProcessorResponse $response */
+	// update
+	$processor = $processor_create;
+	$response = $modx->runProcessor($processor,$line);
+	// create
+	if( $response->isError() ) {
+		$processor = $processor_create;
+		$response = $modx->runProcessor($processor,$line);
+	}
+	if ($response->isError()) {
+		if ($response->hasFieldErrors()) {
+			$fieldErrors = $response->getAllErrors();
+			$errorMessage = implode("\n",$fieldErrors);
+		} else {
+			$errorMessage = $modx->lexicon('importx.err.savefailed')."\n".print_r($response->getMessage(),true);
+		}
+		$this->modx->importx->log('error',$errorMessage);
+		return $this->modx->importx->log('complete','');
+	} else {
+		$resourceCount++;
+	}
 }
 sleep(1);
 $this->modx->importx->log('info',$modx->lexicon('importx.log.complete',array('count' => $resourceCount)));
-sleep(1); 
+sleep(1);
 $this->modx->importx->log('complete','');
 sleep(1);
 return $modx->error->success();
