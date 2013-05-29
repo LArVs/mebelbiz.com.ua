@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '41b3d38f13e5a3da4ec6a687a2ba6703',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '7ed17509fc4a380efb67a10d9ed24252',
+  'native_key' => 40,
+  'object' => '{"id":40,"namespace":"core","controller":"resource\\/data","haslayout":1,"lang_topics":"resource","assets":"","help_url":"Resource"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c0dc3125c3fdc950d8a6802e88e9d42b',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'ddded1135fb005eb7a45ccc83e7188fe',
+  'native_key' => 'OnContextRemove',
+  'object' => '{"name":"OnContextRemove","service":1,"groupname":"Contexts"}',
+);

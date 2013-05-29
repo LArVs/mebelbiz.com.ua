@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7140c2e8842445d1893c7714efb0262d',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '0086159ac2469c3c792ac0c3c971f7e2',
+  'native_key' => 'OnInitCulture',
+  'object' => '{"name":"OnInitCulture","service":3,"groupname":"Internationalization"}',
+);

@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '7d02bcf8b52d09da31f4949428c490d1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"importx","parent":0,"controller":"controllers\\/index","haslayout":1,"lang_topics":"importx:default","assets":"","help_url":""}',
+        'guid' => '6c0f3a4c4d24de64a2d6e359fd41fa23',
+        'native_key' => 1,
+        'signature' => 'befcb3666f2de6a651f7119e397ac5ed',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'importx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c74c2fab2ee67a4733ceb723a194e908',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '4dc9eb32e454955dcd77d23d4b42c7f9',
+  'native_key' => 'importx',
+  'object' => '{"text":"importx","parent":"components","action":1,"description":"importx.description","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'importx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f44d056cd22ad5d1a4c58eef52ba9136',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '768f5c1e3e98ad97153b7fb339b76adb',
+  'native_key' => 'importx.processor',
+  'object' => '{"key":"importx.processor","value":"create","xtype":"textfield","namespace":"importx","area":"Default","editedon":null}',
+);

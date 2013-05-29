@@ -15,12 +15,12 @@ $config_options = array (
 $driver_options = array (
 );
 
-$lastInstallTime = 1363609943;
+$lastInstallTime = 1369817541;
 
-$site_id = 'modx51470957845c78.59475427';
-$site_sessionname = 'SN514708f0dcfb2';
+$site_id = 'modx51a5c1c50c8134.73208965';
+$site_sessionname = 'SN51a5c1709093e';
 $https_port = '443';
-$uuid = '9a22457e-1a22-4f33-9ba2-29b3f650e37f';
+$uuid = '0fc61f5f-d9e8-4fe0-aabd-0ef60422b256';
 
 if (!defined('MODX_CORE_PATH')) {
     $modx_core_path= '/home/larv/git/mebelbiz.com.ua/htdocs/core/';

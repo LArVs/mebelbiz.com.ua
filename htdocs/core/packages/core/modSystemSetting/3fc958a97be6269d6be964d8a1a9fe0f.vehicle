@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '687ad89bd5ff4432dfca36c9993c2fd9',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3fc958a97be6269d6be964d8a1a9fe0f',
+  'native_key' => 'cache_handler',
+  'object' => '{"key":"cache_handler","value":"xPDOFileCache","xtype":"textfield","namespace":"core","area":"caching","editedon":null}',
+);

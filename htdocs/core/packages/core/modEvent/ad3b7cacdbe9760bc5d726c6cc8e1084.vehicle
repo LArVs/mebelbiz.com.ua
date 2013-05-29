@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '96fc6364cac0b09328928cf62134f337',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'ad3b7cacdbe9760bc5d726c6cc8e1084',
+  'native_key' => 'OnLoadWebDocument',
+  'object' => '{"name":"OnLoadWebDocument","service":5,"groupname":"System"}',
+);
