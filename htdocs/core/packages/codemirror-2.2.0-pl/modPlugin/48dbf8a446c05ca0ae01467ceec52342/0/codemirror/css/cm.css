@@ -1,0 +1,64 @@
+.CodeMirror-line-numbers {
+    background-color: #eee;
+    color: #aaa;
+    font-family: monospace;
+    font-size: 10pt;
+    padding: 4px 0.3em 4px 0;
+    width: 2.2em;
+    line-height: 1.2;
+    padding-right: 0.3em;
+    text-align: right;
+}
+.CodeMirror-wrapping {
+    padding: 0;
+}
+.CodeMirror-dialog {
+  position: relative;
+}
+
+.CodeMirror-dialog > div {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+  z-index: 15;
+  padding: .1em .8em;
+  overflow: hidden;
+  color: #333;
+}
+
+.CodeMirror-dialog input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 20em;
+  color: inherit;
+  font-family: monospace;
+}
+
+
+#x-form-el-modx-snippet-snippet,
+#x-form-el-modx-plugin-plugincode,
+#x-form-el-modx-chunk-snippet,
+#x-form-el-modx-template-content,
+#x-form-el-modx-file-content {
+    border: 1px solid #ddd;
+}
+#x-form-el-modx-tv-default-text .CodeMirror-wrapping {
+    border: 1px solid #ddd;
+}
+
+.cm-s-default .activeline {background: #f0fcff;}
+
+span.CodeMirror-matchhighlight { background: #e9e9e9 }
+.CodeMirror-focused span.CodeMirror-matchhighlight { background: #e7e4ff; }
+
+
+.CodeMirror-fullscreen {
+    display: block;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: white;
+}

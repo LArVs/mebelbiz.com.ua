@@ -1,0 +1,185 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'bfd008b862621a29bfe8144a7ff3213e' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnChunkFormPrerender","priority":0,"propertyset":0}',
+        'guid' => '6a1c495ff0011e981cbe6c1848911823',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnChunkFormPrerender',
+        ),
+        'signature' => '693c76aed2d4871240095133dba805ed',
+      ),
+      '81b94f1219e188b3507ca37d338ca714' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPluginFormPrerender","priority":0,"propertyset":0}',
+        'guid' => '9ab6fe713dbe2cdb236f2818092591a2',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPluginFormPrerender',
+        ),
+        'signature' => 'a8e89288f8a8902a4c7da9af0ba43989',
+      ),
+      '67c991fbafb81fb29895f7777385bc3e' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSnipFormPrerender","priority":0,"propertyset":0}',
+        'guid' => '660ea87a2b55d88255a6541c4c74472d',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSnipFormPrerender',
+        ),
+        'signature' => '40ab1e4659a2866f1b55aa406ef2fdae',
+      ),
+      'b517ba8db13946ea206b478a4c829191' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTempFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'dcfb76fb85b359a27df0f70d43a90331',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTempFormPrerender',
+        ),
+        'signature' => '6458fd59873dd1efe132b84d7eccf0e7',
+      ),
+      '30a50fe93600af77114cc6b38543da2b' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnFileEditFormPrerender","priority":0,"propertyset":0}',
+        'guid' => '132876e95f01dc27076fb64a8b9f856e',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnFileEditFormPrerender',
+        ),
+        'signature' => 'ceace81876734c217caea1796af0ec92',
+      ),
+      '51fe9e00acba04b33ab0fca1ad1bb989' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'ad64c7cc8513a7c7043c6b1c5756ea8d',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormPrerender',
+        ),
+        'signature' => 'e03f4d3e8909db6857005eb93fdcb4a6',
+      ),
+      '70da4ad01a9985fbccaa3f7c6ead41ca' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnRichTextEditorRegister","priority":0,"propertyset":0}',
+        'guid' => '70bc89bb52bd8d50345d8032c3964bd5',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnRichTextEditorRegister',
+        ),
+        'signature' => '63e9a2083e0f87933cd5837e77e79ec0',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'codemirror',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"codemirror-2.2.0-pl\\/modPlugin\\/48dbf8a446c05ca0ae01467ceec52342\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"codemirror"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"codemirror-2.2.0-pl\\/modPlugin\\/48dbf8a446c05ca0ae01467ceec52342\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"codemirror"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"codemirror-2.2.0-pl\\/modPlugin\\/48dbf8a446c05ca0ae01467ceec52342.resolve.whicheditor.resolver","type":"php","name":"resolve.whicheditor"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a057793c65d33fbaff1431169f118450',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '48dbf8a446c05ca0ae01467ceec52342',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"CodeMirror","description":"CodeMirror 2.2.0-pl plugin for MODx Revolution","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\n * @package codemirror\\n *\\/\\nif ($modx->event->name == \'OnRichTextEditorRegister\') {\\n    $modx->event->output(\'CodeMirror\');\\n    return;\\n}\\n\\n$eventArray = array(\\n    \'element\'=>array(\\n\\t\\t\'OnSnipFormPrerender\',\\n\\t\\t\'OnTempFormPrerender\',\\n\\t\\t\'OnChunkFormPrerender\',\\n\\t\\t\'OnPluginFormPrerender\',\\n\\t\\t\\/*\'OnTVFormPrerender\'*\\/\\n\\t\\t\'OnFileEditFormPrerender\',\\n\\t\\t\'OnFileEditFormPrerender\',\\n\\t\\t),\\n\\t\'other\'=>array(\\n\\t\\t\'OnDocFormPrerender\',\\n\\t\\t\'OnRichTextEditorInit\',\\n\\t\\t\'OnRichTextBrowserInit\'\\n\\t)\\n);\\nif ((in_array($modx->event->name,$eventArray[\'element\']) && $modx->getOption(\'which_element_editor\',null,\'CodeMirror\') != \'CodeMirror\') || (in_array($modx->event->name,$eventArray[\'other\']) && $modx->getOption(\'which_editor\',null,\'CodeMirror\') != \'CodeMirror\')) return;\\n\\nif (!$modx->getOption(\'use_editor\',null,true)) return;\\nif (!$modx->getOption(\'codemirror.enable\',null,true)) return;\\n\\n\\/** @var CodeMirror $codeMirror *\\/\\n$codeMirror = $modx->getService(\'codemirror\',\'CodeMirror\',$modx->getOption(\'codemirror.core_path\',null,$modx->getOption(\'core_path\').\'components\\/codemirror\\/\').\'model\\/codemirror\\/\');\\nif (!($codeMirror instanceof CodeMirror)) return \'\';\\n\\n$options = array(\\n    \'modx_path\' => $codeMirror->config[\'assetsUrl\'],\\n    \'theme\' => $modx->getOption(\'theme\',$scriptProperties,\'default\'),\\n\\n    \'indentUnit\' => (int)$modx->getOption(\'indentUnit\',$scriptProperties,$modx->getOption(\'indent_unit\',$scriptProperties,2)),\\n    \'smartIndent\' => (boolean)$modx->getOption(\'smartIndent\',$scriptProperties,false),\\n    \'tabSize\' => (int)$modx->getOption(\'tabSize\',$scriptProperties,4),\\n    \'indentWithTabs\' => (boolean)$modx->getOption(\'indentWithTabs\',$scriptProperties,true),\\n    \'electricChars\' => (boolean)$modx->getOption(\'electricChars\',$scriptProperties,true),\\n    \'autoClearEmptyLines\' => (boolean)$modx->getOption(\'electricChars\',$scriptProperties,false),\\n\\n    \'lineWrapping\' => (boolean)$modx->getOption(\'lineWrapping\',$scriptProperties,true),\\n    \'lineNumbers\' => (boolean)$modx->getOption(\'lineNumbers\',$scriptProperties,$modx->getOption(\'line_numbers\',$scriptProperties,true)),\\n    \'firstLineNumber\' => (int)$modx->getOption(\'firstLineNumber\',$scriptProperties,1),\\n    \'highlightLine\' => (boolean)$modx->getOption(\'highlightLine\',$scriptProperties,true),\\n    \'matchBrackets\' => (boolean)$modx->getOption(\'matchBrackets\',$scriptProperties,true),\\n    \'showSearchForm\' => (boolean)$modx->getOption(\'showSearchForm\',$scriptProperties,true),\\n    \'undoDepth\' => $modx->getOption(\'undoDepth\',$scriptProperties,40),\\n);\\n\\n$load = false;\\nswitch ($modx->event->name) {\\n    case \'OnSnipFormPrerender\':\\n        $options[\'modx_loader\'] = \'onSnippet\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    case \'OnTempFormPrerender\':\\n        $options[\'modx_loader\'] = \'onTemplate\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n        break;\\n    case \'OnChunkFormPrerender\':\\n        $options[\'modx_loader\'] = \'onChunk\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n        break;\\n    case \'OnPluginFormPrerender\':\\n        $options[\'modx_loader\'] = \'onPlugin\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    \\/* disabling TVs for now, since it causes problems with newlines\\n    case \'OnTVFormPrerender\':\\n        $options[\'modx_loader\'] = \'onTV\';\\n        $options[\'height\'] = \'250px\';\\n        $load = true;\\n        break;*\\/\\n    case \'OnFileEditFormPrerender\':\\n        $options[\'modx_loader\'] = \'onFile\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    case \'OnDocFormPrerender\':\\n    \\t$options[\'modx_loader\'] = \'onResource\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n    \\tbreak;\\n    \\/* debated whether or not to use *\\/\\n    case \'OnRichTextEditorInit\':\\n        break;\\n    case \'OnRichTextBrowserInit\':\\n        break;\\n}\\n\\nif ($load) {\\n    $options[\'searchTpl\'] = $codeMirror->getChunk(\'search\');\\n\\n    $modx->regClientStartupHTMLBlock(\'<script type=\\"text\\/javascript\\">MODx.codem = \'.$modx->toJSON($options).\';<\\/script>\');\\n    $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'css\\/codemirror-compressed.css\');\\n    $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'css\\/cm.css\');\\n    if ($options[\'theme\'] != \'default\') {\\n        $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'cm\\/theme\\/\'.$options[\'theme\'].\'.css\');\\n    }\\n    $modx->regClientStartupScript($codeMirror->config[\'assetsUrl\'].\'js\\/codemirror-compressed.js\');\\n    $modx->regClientStartupScript($codeMirror->config[\'assetsUrl\'].\'js\\/cm.js\');\\n}\\n\\nreturn;","locked":0,"properties":"a:14:{s:5:\\"theme\\";a:7:{s:4:\\"name\\";s:5:\\"theme\\";s:4:\\"desc\\";s:18:\\"prop_cm.theme_desc\\";s:4:\\"type\\";s:4:\\"list\\";s:7:\\"options\\";a:14:{i:0;a:2:{s:4:\\"text\\";s:7:\\"default\\";s:5:\\"value\\";s:7:\\"default\\";}i:1;a:2:{s:4:\\"text\\";s:8:\\"ambiance\\";s:5:\\"value\\";s:8:\\"ambiance\\";}i:2;a:2:{s:4:\\"text\\";s:10:\\"blackboard\\";s:5:\\"value\\";s:10:\\"blackboard\\";}i:3;a:2:{s:4:\\"text\\";s:6:\\"cobalt\\";s:5:\\"value\\";s:6:\\"cobalt\\";}i:4;a:2:{s:4:\\"text\\";s:7:\\"eclipse\\";s:5:\\"value\\";s:7:\\"eclipse\\";}i:5;a:2:{s:4:\\"text\\";s:7:\\"elegant\\";s:5:\\"value\\";s:7:\\"elegant\\";}i:6;a:2:{s:4:\\"text\\";s:11:\\"erlang-dark\\";s:5:\\"value\\";s:11:\\"erlang-dark\\";}i:7;a:2:{s:4:\\"text\\";s:11:\\"lesser-dark\\";s:5:\\"value\\";s:11:\\"lesser-dark\\";}i:8;a:2:{s:4:\\"text\\";s:7:\\"monokai\\";s:5:\\"value\\";s:7:\\"monokai\\";}i:9;a:2:{s:4:\\"text\\";s:4:\\"neat\\";s:5:\\"value\\";s:4:\\"near\\";}i:10;a:2:{s:4:\\"text\\";s:5:\\"night\\";s:5:\\"value\\";s:5:\\"night\\";}i:11;a:2:{s:4:\\"text\\";s:8:\\"rubyblue\\";s:5:\\"value\\";s:8:\\"rubyblue\\";}i:12;a:2:{s:4:\\"text\\";s:11:\\"vibrant-ink\\";s:5:\\"value\\";s:11:\\"vibrant-ink\\";}i:13;a:2:{s:4:\\"text\\";s:7:\\"xq-dark\\";s:5:\\"value\\";s:7:\\"xq-dark\\";}}s:5:\\"value\\";s:7:\\"default\\";s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"indentUnit\\";a:7:{s:4:\\"name\\";s:10:\\"indentUnit\\";s:4:\\"desc\\";s:23:\\"prop_cm.indentUnit_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";i:2;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"smartIndent\\";a:7:{s:4:\\"name\\";s:11:\\"smartIndent\\";s:4:\\"desc\\";s:24:\\"prop_cm.smartIndent_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"tabSize\\";a:7:{s:4:\\"name\\";s:7:\\"tabSize\\";s:4:\\"desc\\";s:20:\\"prop_cm.tabSize_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";i:4;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"indentWithTabs\\";a:7:{s:4:\\"name\\";s:14:\\"indentWithTabs\\";s:4:\\"desc\\";s:27:\\"prop_cm.indentWithTabs_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"electricChars\\";a:7:{s:4:\\"name\\";s:13:\\"electricChars\\";s:4:\\"desc\\";s:26:\\"prop_cm.electricChars_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:19:\\"autoClearEmptyLines\\";a:7:{s:4:\\"name\\";s:19:\\"autoClearEmptyLines\\";s:4:\\"desc\\";s:32:\\"prop_cm.autoClearEmptyLines_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"lineWrapping\\";a:7:{s:4:\\"name\\";s:12:\\"lineWrapping\\";s:4:\\"desc\\";s:25:\\"prop_cm.lineWrapping_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"lineNumbers\\";a:7:{s:4:\\"name\\";s:11:\\"lineNumbers\\";s:4:\\"desc\\";s:24:\\"prop_cm.lineNumbers_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:15:\\"firstLineNumber\\";a:7:{s:4:\\"name\\";s:15:\\"firstLineNumber\\";s:4:\\"desc\\";s:28:\\"prop_cm.firstLineNumber_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";i:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"highlightLine\\";a:7:{s:4:\\"name\\";s:13:\\"highlightLine\\";s:4:\\"desc\\";s:26:\\"prop_cm.highlightLine_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"matchBrackets\\";a:7:{s:4:\\"name\\";s:13:\\"matchBrackets\\";s:4:\\"desc\\";s:26:\\"prop_cm.matchBrackets_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"showSearchForm\\";a:7:{s:4:\\"name\\";s:14:\\"showSearchForm\\";s:4:\\"desc\\";s:27:\\"prop_cm.showSearchForm_desc\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"undoDepth\\";a:7:{s:4:\\"name\\";s:9:\\"undoDepth\\";s:4:\\"desc\\";s:22:\\"prop_cm.undoDepth_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";i:40;s:7:\\"lexicon\\";s:21:\\"codemirror:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\n * @package codemirror\\n *\\/\\nif ($modx->event->name == \'OnRichTextEditorRegister\') {\\n    $modx->event->output(\'CodeMirror\');\\n    return;\\n}\\n\\n$eventArray = array(\\n    \'element\'=>array(\\n\\t\\t\'OnSnipFormPrerender\',\\n\\t\\t\'OnTempFormPrerender\',\\n\\t\\t\'OnChunkFormPrerender\',\\n\\t\\t\'OnPluginFormPrerender\',\\n\\t\\t\\/*\'OnTVFormPrerender\'*\\/\\n\\t\\t\'OnFileEditFormPrerender\',\\n\\t\\t\'OnFileEditFormPrerender\',\\n\\t\\t),\\n\\t\'other\'=>array(\\n\\t\\t\'OnDocFormPrerender\',\\n\\t\\t\'OnRichTextEditorInit\',\\n\\t\\t\'OnRichTextBrowserInit\'\\n\\t)\\n);\\nif ((in_array($modx->event->name,$eventArray[\'element\']) && $modx->getOption(\'which_element_editor\',null,\'CodeMirror\') != \'CodeMirror\') || (in_array($modx->event->name,$eventArray[\'other\']) && $modx->getOption(\'which_editor\',null,\'CodeMirror\') != \'CodeMirror\')) return;\\n\\nif (!$modx->getOption(\'use_editor\',null,true)) return;\\nif (!$modx->getOption(\'codemirror.enable\',null,true)) return;\\n\\n\\/** @var CodeMirror $codeMirror *\\/\\n$codeMirror = $modx->getService(\'codemirror\',\'CodeMirror\',$modx->getOption(\'codemirror.core_path\',null,$modx->getOption(\'core_path\').\'components\\/codemirror\\/\').\'model\\/codemirror\\/\');\\nif (!($codeMirror instanceof CodeMirror)) return \'\';\\n\\n$options = array(\\n    \'modx_path\' => $codeMirror->config[\'assetsUrl\'],\\n    \'theme\' => $modx->getOption(\'theme\',$scriptProperties,\'default\'),\\n\\n    \'indentUnit\' => (int)$modx->getOption(\'indentUnit\',$scriptProperties,$modx->getOption(\'indent_unit\',$scriptProperties,2)),\\n    \'smartIndent\' => (boolean)$modx->getOption(\'smartIndent\',$scriptProperties,false),\\n    \'tabSize\' => (int)$modx->getOption(\'tabSize\',$scriptProperties,4),\\n    \'indentWithTabs\' => (boolean)$modx->getOption(\'indentWithTabs\',$scriptProperties,true),\\n    \'electricChars\' => (boolean)$modx->getOption(\'electricChars\',$scriptProperties,true),\\n    \'autoClearEmptyLines\' => (boolean)$modx->getOption(\'electricChars\',$scriptProperties,false),\\n\\n    \'lineWrapping\' => (boolean)$modx->getOption(\'lineWrapping\',$scriptProperties,true),\\n    \'lineNumbers\' => (boolean)$modx->getOption(\'lineNumbers\',$scriptProperties,$modx->getOption(\'line_numbers\',$scriptProperties,true)),\\n    \'firstLineNumber\' => (int)$modx->getOption(\'firstLineNumber\',$scriptProperties,1),\\n    \'highlightLine\' => (boolean)$modx->getOption(\'highlightLine\',$scriptProperties,true),\\n    \'matchBrackets\' => (boolean)$modx->getOption(\'matchBrackets\',$scriptProperties,true),\\n    \'showSearchForm\' => (boolean)$modx->getOption(\'showSearchForm\',$scriptProperties,true),\\n    \'undoDepth\' => $modx->getOption(\'undoDepth\',$scriptProperties,40),\\n);\\n\\n$load = false;\\nswitch ($modx->event->name) {\\n    case \'OnSnipFormPrerender\':\\n        $options[\'modx_loader\'] = \'onSnippet\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    case \'OnTempFormPrerender\':\\n        $options[\'modx_loader\'] = \'onTemplate\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n        break;\\n    case \'OnChunkFormPrerender\':\\n        $options[\'modx_loader\'] = \'onChunk\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n        break;\\n    case \'OnPluginFormPrerender\':\\n        $options[\'modx_loader\'] = \'onPlugin\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    \\/* disabling TVs for now, since it causes problems with newlines\\n    case \'OnTVFormPrerender\':\\n        $options[\'modx_loader\'] = \'onTV\';\\n        $options[\'height\'] = \'250px\';\\n        $load = true;\\n        break;*\\/\\n    case \'OnFileEditFormPrerender\':\\n        $options[\'modx_loader\'] = \'onFile\';\\n        $options[\'mode\'] = \'php\';\\n        $load = true;\\n        break;\\n    case \'OnDocFormPrerender\':\\n    \\t$options[\'modx_loader\'] = \'onResource\';\\n        $options[\'mode\'] = \'htmlmixed\';\\n        $load = true;\\n    \\tbreak;\\n    \\/* debated whether or not to use *\\/\\n    case \'OnRichTextEditorInit\':\\n        break;\\n    case \'OnRichTextBrowserInit\':\\n        break;\\n}\\n\\nif ($load) {\\n    $options[\'searchTpl\'] = $codeMirror->getChunk(\'search\');\\n\\n    $modx->regClientStartupHTMLBlock(\'<script type=\\"text\\/javascript\\">MODx.codem = \'.$modx->toJSON($options).\';<\\/script>\');\\n    $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'css\\/codemirror-compressed.css\');\\n    $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'css\\/cm.css\');\\n    if ($options[\'theme\'] != \'default\') {\\n        $modx->regClientCSS($codeMirror->config[\'assetsUrl\'].\'cm\\/theme\\/\'.$options[\'theme\'].\'.css\');\\n    }\\n    $modx->regClientStartupScript($codeMirror->config[\'assetsUrl\'].\'js\\/codemirror-compressed.js\');\\n    $modx->regClientStartupScript($codeMirror->config[\'assetsUrl\'].\'js\\/cm.js\');\\n}\\n\\nreturn;"}',
+);
