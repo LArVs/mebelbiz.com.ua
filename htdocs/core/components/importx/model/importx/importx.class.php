@@ -101,7 +101,7 @@ class importX {
 				break;
 			case 'complete':
 				$this->modx->log(modX::LOG_LEVEL_INFO,'COMPLETED');
-				sleep(1);
+				//sleep(1);
 			case 'warn':
 				$this->modx->log(modX::LOG_LEVEL_WARN,$msg);
 				break;

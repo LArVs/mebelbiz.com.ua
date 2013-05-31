@@ -26,13 +26,13 @@
 /* @var modX $modx */
 $modx->importx->post = $scriptProperties;
 $modx->importx->initialize();
-sleep(1);
+//sleep(1);
 $modx->importx->log('info',$modx->lexicon('importx.log.runningpreimport'));
-sleep(1);
+//sleep(1);
 
 /* Get the data and prepare it */
 $modx->importx->getData();
-sleep(1);
+//sleep(1);
 $lines = $modx->importx->prepareData();
 
 if ($lines === false) {
@@ -46,17 +46,28 @@ $resourceCount = 0;
 //$processor = 'resource/'.$modx->getOption('importx.processor',null,'create');
 $processor_update = 'resource/update';
 $processor_create = 'resource/create';
+$processor = $processor_update;
+$t_content = $modx->getTableName( 'modResource' );
+//$t_content = 'modx_site_content';
+$sql_insert = 'INSERT INTO %s ( id ) VALUES( "%u" )';
 foreach ($lines as $line) {
-	/* @var modProcessorResponse $response */
-	// update
-	$processor = $processor_create;
-	$response = $modx->runProcessor($processor,$line);
-	// create
-	if( $response->isError() ) {
-		$processor = $processor_create;
-		$response = $modx->runProcessor($processor,$line);
+	$resource = $modx->getObject( 'modResource', $line['id'] );
+	if( empty( $resource ) ) {
+		$sql = sprintf( $sql_insert, $t_content, $line[ 'id' ] );
+		$modx->query( $sql );
+		$resource = $modx->getObject( 'modResource', $line['id'] );
+		if( empty( $resource ) ) {
+			$this->modx->importx->log('error', 'insert: ' . var_export( $sql, true ));
+		}
+		//$processor = $processor_create;
+	//} else {
+		//$processor = $processor_update;
+		//$this->modx->importx->log('error',$processor . ': ' . var_export( $line, true ));
 	}
+	/* @var modProcessorResponse $response */
+	$response = $modx->runProcessor($processor,$line);
 	if ($response->isError()) {
+		//$this->modx->importx->log('error',$processor . ': ' . var_export( $line, true ));
 		if ($response->hasFieldErrors()) {
 			$fieldErrors = $response->getAllErrors();
 			$errorMessage = implode("\n",$fieldErrors);
@@ -64,15 +75,15 @@ foreach ($lines as $line) {
 			$errorMessage = $modx->lexicon('importx.err.savefailed')."\n".print_r($response->getMessage(),true);
 		}
 		$this->modx->importx->log('error',$errorMessage);
-		return $this->modx->importx->log('complete','');
+		//return $this->modx->importx->log('complete','');
 	} else {
 		$resourceCount++;
 	}
 }
-sleep(1);
+//sleep(1);
 $this->modx->importx->log('info',$modx->lexicon('importx.log.complete',array('count' => $resourceCount)));
-sleep(1);
+//sleep(1);
 $this->modx->importx->log('complete','');
-sleep(1);
+//sleep(1);
 return $modx->error->success();
-?>
+
