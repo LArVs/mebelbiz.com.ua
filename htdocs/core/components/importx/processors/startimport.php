@@ -51,11 +51,13 @@ $t_content = $modx->getTableName( 'modResource' );
 //$t_content = 'modx_site_content';
 $sql_insert = 'INSERT INTO %s ( id ) VALUES( "%u" )';
 foreach ($lines as $line) {
-	$resource = $modx->getObject( 'modResource', $line['id'] );
+	$id = $line[ 'id' ];
+	$resource = $modx->getObject( 'modResource', $id );
 	if( empty( $resource ) ) {
-		$sql = sprintf( $sql_insert, $t_content, $line[ 'id' ] );
+		//$this->modx->importx->log('info', "insert: $id");
+		$sql = sprintf( $sql_insert, $t_content, $id );
 		$modx->query( $sql );
-		$resource = $modx->getObject( 'modResource', $line['id'] );
+		$resource = $modx->getObject( 'modResource', $id );
 		if( empty( $resource ) ) {
 			$this->modx->importx->log('error', 'insert: ' . var_export( $sql, true ));
 		}
@@ -64,9 +66,11 @@ foreach ($lines as $line) {
 		//$processor = $processor_update;
 		//$this->modx->importx->log('error',$processor . ': ' . var_export( $line, true ));
 	}
+	//$this->modx->log( modX::LOG_LEVEL_INFO, "doc upadte: " . var_export( $line, true ) );
 	/* @var modProcessorResponse $response */
 	$response = $modx->runProcessor($processor,$line);
 	if ($response->isError()) {
+		//$this->modx->log( modX::LOG_LEVEL_INFO, "doc fail: $id" );
 		//$this->modx->importx->log('error',$processor . ': ' . var_export( $line, true ));
 		if ($response->hasFieldErrors()) {
 			$fieldErrors = $response->getAllErrors();
@@ -77,6 +81,17 @@ foreach ($lines as $line) {
 		$this->modx->importx->log('error',$errorMessage);
 		//return $this->modx->importx->log('complete','');
 	} else {
+		//$resource = $modx->getObject( 'modResource', $id );
+		//$resource->set( 'template', 0 );
+		//$resource->save();
+		//$ids = $resource->get( 'id' );
+		//$resource->save();
+		//$this->modx->invokeEvent('OnDocFormSave', array(
+			//'mode' => modSystemEvent::MODE_UPD,
+			//'id' => $id,
+			//'resource' => &$resource,
+		//));
+		//$this->modx->log( modX::LOG_LEVEL_INFO, "doc ok: $id" );
 		$resourceCount++;
 	}
 }

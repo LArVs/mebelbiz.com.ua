@@ -1,0 +1,62 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'd9a98612a9ee1aca89ba24e2916036cd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"batcher","parent":0,"controller":"index","haslayout":1,"lang_topics":"batcher:default","assets":"","help_url":""}',
+        'guid' => '34d93efa471d94366f75c1189cc940cb',
+        'native_key' => 1,
+        'signature' => '38eee6ae3965cec524294553a494ef0d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'batcher',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"batcher-1.1.1-pl\\/modMenu\\/5e665b4aa354f59830b253257afa0c64\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"batcher"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"batcher-1.1.1-pl\\/modMenu\\/5e665b4aa354f59830b253257afa0c64\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"batcher"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c9565684fc6e46f9a4d1ad03dd467642',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '5e665b4aa354f59830b253257afa0c64',
+  'native_key' => 'batcher',
+  'object' => '{"text":"batcher","parent":"components","action":1,"description":"batcher.menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);

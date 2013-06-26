@@ -1,0 +1,34 @@
+Changelog for BreadCrumb
+
+BreadCrumb 1.3.1-pl
+-------------------
+Add test to check if the function processTpl is already defined
+
+BreadCrumb 1.3.0-pl
+-------------------
+BreadCrumb snippet now works with property sets
+Default templates chunks removed and replaced by properties
+
+BreadCrumb 1.2.0-pl
+-------------------
+Add &scheme property to define modx links scheme
+
+BreadCrumb 1.1.0-pl
+-------------------
+Add properties &from and &to to generate breadcrumb between to specific resources
+
+BreadCrumb 1.0.0-pl
+-------------------
+Public launch
+
+BreadCrumb 1.0.0-beta3
+-------------------
+Add useWebLinkUrl property
+
+BreadCrumb 1.0.0-beta2
+-------------------
+Fix current resource checking when resourceId property specified
+
+BreadCrumb 1.0.0-beta1
+-------------------
+Initial Version

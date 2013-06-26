@@ -1,0 +1,49 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      'fe822b5c6632abeb2fa149691ef27cfb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"name":"Breadcrumbs","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * BreadCrumbs\\n *\\n * Copyright 2009-2011 by Shaun McCormick <shaun+bc@modx.com>\\n *\\n * BreadCrumbs is free software; you can redistribute it and\\/or modify it\\n * under the terms of the GNU General Public License as published by the Free\\n * Software Foundation; either version 2 of the License, or (at your option) any\\n * later version.\\n *\\n * BreadCrumbs is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * BreadCrumbs; if not, write to the Free Software Foundation, Inc., 59 Temple Place,\\n * Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package breadcrumbs\\n *\\/\\n\\/**\\n * @name BreadCrumbs\\n * @version 0.9f\\n * @created 2006-06-12\\n * @since 2009-05-11\\n * @author Jared <jaredc@honeydewdesign.com>\\n * @editor Bill Wilson\\n * @editor wendy@djamoer.net\\n * @editor grad\\n * @editor Shaun McCormick <shaun@collabpad.com>\\n * @editor Shawn Wilkerson <shawn@shawnwilkerson.com>\\n * @editor Wieger Sloot, Sterc.nl <wieger@sterc.nl>\\n * @tester Bob Ray\\n * @package breadcrumbs\\n *\\n * This snippet was designed to show the path through the various levels of site\\n * structure back to the root. It is NOT necessarily the path the user took to\\n * arrive at a given page.\\n *\\n * @see breadcrumbs.class.php for config settings\\n *\\n * Included classes\\n * .B_crumbBox Span that surrounds all crumb output\\n * .B_hideCrumb Span surrounding the \\"...\\" if there are more crumbs than will be shown\\n * .B_currentCrumb Span or A tag surrounding the current crumb\\n * .B_firstCrumb Span that always surrounds the first crumb, whether it is \\"home\\" or not\\n * .B_lastCrumb Span surrounding last crumb, whether it is the current page or not .\\n * .B_crumb Class given to each A tag surrounding the intermediate crumbs (not home, or\\n * hide)\\n * .B_homeCrumb Class given to the home crumb\\n *\\/\\nrequire_once $modx->getOption(\'breadcrumbs.core_path\',null,$modx->getOption(\'core_path\').\'components\\/breadcrumbs\\/\').\'model\\/breadcrumbs\\/breadcrumbs.class.php\';\\n$bc = new BreadCrumbs($modx,$scriptProperties);\\nreturn $bc->run();","locked":0,"properties":"","moduleguid":""}',
+        'guid' => '0b55466d2c3a449e525581fa3c60f8d0',
+        'native_key' => 0,
+        'signature' => '47012eddf8c0b537844c9c8224f98159',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'breadcrumbs',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"breadcrumbs-1.1.0-pl\\/modCategory\\/e646cc83f87e5adfa023eaa496989557\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"breadcrumbs"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'adc358a5c5488f7302764cfbcd6d8a27',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'e646cc83f87e5adfa023eaa496989557',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Breadcrumbs"}',
+);
